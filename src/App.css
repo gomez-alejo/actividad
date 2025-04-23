@@ -1,59 +1,69 @@
+/* Estilos generales del cuerpo de la página */
 body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #F4F4F9; /* Blanco grisáceo */
+  margin: 0; /* Elimina los márgenes por defecto del navegador */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipografía moderna y legible */
+  background-color: #F4F4F9; /* Fondo blanco grisáceo, suave a la vista */
 }
 
+/* Contenedor principal de la aplicación */
 .App {
-  text-align: center;
+  text-align: center; /* Centra el contenido de texto */
 }
 
+/* Encabezado principal */
 .header {
-  background-color: #6A0DAD; /* Morado principal */
-  color: white;
-  padding: 2rem 0;
+  background-color: #6A0DAD; /* Morado llamativo como color principal */
+  color: white; /* Texto blanco para contraste */
+  padding: 2rem 0; /* Espaciado vertical amplio */
 }
 
+/* Barra de navegación horizontal */
 .navbar {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  background-color: #E6E6FA; /* Lavanda claro */
-  padding: 1rem;
+  display: flex; /* Flexbox para alinear elementos horizontalmente */
+  justify-content: center; /* Centra los elementos de la navbar */
+  gap: 2rem; /* Espacio entre los enlaces */
+  background-color: #E6E6FA; /* Fondo lavanda claro */
+  padding: 1rem; /* Espaciado interno */
 }
 
+/* Enlaces de la barra de navegación */
 .navbar a {
-  text-decoration: none;
-  color: #1B1B3A; /* Azul noche */
-  font-weight: bold;
+  text-decoration: none; /* Sin subrayado en los enlaces */
+  color: #1B1B3A; /* Azul oscuro tipo “noche” para mejor legibilidad */
+  font-weight: bold; /* Texto en negrita para destacar */
 }
 
+/* Contenido principal */
 main {
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-  gap: 28px;
+  padding: 20px; /* Espaciado interno general */
+  display: flex; /* Flexbox para distribuir secciones en fila */
+  flex-direction: row; /* Alineación horizontal */
+  gap: 28px; /* Espacio entre secciones */
 }
 
+/* Estilos para cada sección del main */
 .section {
-  width: 33%;
-  height: 285px;
-  border-radius: 20px;
-  background-color:#E6E6FA ;
-  padding: 4rem 2rem;
-  border-bottom: 1px solid #D3D3D3;
+  width: 33%; /* Cada sección ocupa un tercio del ancho */
+  height: 285px; /* Altura fija para uniformidad */
+  border-radius: 20px; /* Bordes redondeados para suavizar visualmente */
+  background-color: #E6E6FA; /* Fondo lavanda suave */
+  padding: 4rem 2rem; /* Espaciado amplio dentro de cada sección */
+  border-bottom: 1px solid #D3D3D3; /* Borde inferior gris claro */
 }
 
+/* Títulos dentro de las secciones */
 .section h2 {
-  color: #6A0DAD; /* Morado */
+  color: #6A0DAD; /* Morado, para mantener coherencia con el header */
 }
 
+/* Párrafos dentro de las secciones */
 .section p {
-  color: #333333; /* Gris oscuro */
+  color: #333333; /* Gris oscuro, buena legibilidad sin tanto contraste como el negro */
 }
 
+/* Pie de página */
 .footer {
-  background-color: #1B1B3A; /* Azul noche */
-  color: white;
-  padding: 1rem;
+  background-color: #1B1B3A; /* Azul oscuro, igual que en los enlaces del navbar */
+  color: white; /* Texto blanco para contraste */
+  padding: 1rem; /* Espaciado interno estándar */
 }

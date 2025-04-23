@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Componente Header
+// Este componente se encarga de mostrar la parte superior de la aplicación
 function Header() {
   return (
     <header className="header">

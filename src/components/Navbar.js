@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Componente Navbar
+// Este componente se encarga de mostrar la barra de navegación de la aplicación
 function Navbar() {
   return (
     <nav className="navbar">

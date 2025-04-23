@@ -1,10 +1,15 @@
 import './App.css';
+import React from 'react';
+// Importamos los componentes Header, Navbar, Section y Footer
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Section from './components/Section';
 import Footer from './components/Footer';
 
+// Componente principal de la aplicación
+// para construir la interfaz de usuario
 function App() {
+  // Este componente se encarga de renderizar la estructura básica de la aplicación
   return (
     <div className="App">
       <Header />
